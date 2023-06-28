@@ -53,12 +53,17 @@ Novo avatar: <br>
 <input type="file" name="avatar" id="">
 </label>
 <img class="mini" src="<?=$base;?>/media/avatars/<?=$userInfo->avatar;?>" />
+<br>
+<button class="button">Salvar</button>
 
 <label for="">
 Nova capa: <br>
 <input type="file" name="cover" id="">
 </label>
 <img class="mini" src="<?=$base;?>/media/covers/<?=$userInfo->cover;?>" />
+<br>
+<button class="button">Salvar</button>
+<br>
 <hr>
 
 <label for="">
